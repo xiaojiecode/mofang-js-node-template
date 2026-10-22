@@ -1,0 +1,20 @@
+{
+  "name": "mofang-js-node-template",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "魔方工作流 JavaScript（Goja）节点的 TypeScript 工程模板",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "verify": "node scripts/verify.mjs",
+    "check": "npm run build && npm run verify",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.10",
+    "typescript": "5.9.3"
+  },
+  "dependencies": {
+    "zod": "3.25.76"
+  }
+}
